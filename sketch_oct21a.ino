@@ -13,8 +13,8 @@
 #include <Adafruit_BMP085.h>
 
 // Firebase Credentials
-#define FIREBASE_API_KEY "AIzaSyCdFstFC2m8LqA5x8Bkj8xEWN2Mii0l0-s"
-#define FIREBASE_DATABASE_URL "https://iot-rtdb-15a22-default-rtdb.asia-southeast1.firebasedatabase.app/"
+#define FIREBASE_API_KEY "YOUR_API_KEY_HERE"
+#define FIREBASE_DATABASE_URL "YOUR_DATABASE_URL_HERE" // should look something like https://yourdatabaseurl.firebasedatabase.app/
 #define FIREBASE_USER_EMAIL "example@gmail.com"
 #define FIREBASE_USER_PASSWORD "password"
 
