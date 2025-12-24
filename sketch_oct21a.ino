@@ -19,8 +19,8 @@
 #define FIREBASE_USER_PASSWORD "password"
 
 // WiFi Credentials
-#define WIFI_SSID "home24"
-#define WIFI_PASSWORD "temp4321"
+#define WIFI_SSID "SSID"                              // replace with your wifi SSID
+#define WIFI_PASSWORD "password"                      // replace with your wifi password
 
 // User functions
 void processData(AsyncResult &aResult);
@@ -38,9 +38,9 @@ RealtimeDatabase Database;
 AsyncResult dbResult;
 
 
-#define DHTPIN 4     // You can change this to any suitable GPIO pin
-#define DHTTYPE DHT11  // Define the type of DHT sensor (DHT11 in this case)
-DHT dht(DHTPIN, DHTTYPE);  // Initialize DHT object
+#define DHTPIN 4                                      // You can change this to any suitable GPIO pin
+#define DHTTYPE DHT11                                 // Define the type of DHT sensor (DHT11 in this case)
+DHT dht(DHTPIN, DHTTYPE);  
 
 Adafruit_MPU6050 mpu;
 sensors_event_t a, g, tempmpu;
